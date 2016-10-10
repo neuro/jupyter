@@ -1,0 +1,12 @@
+before_script:
+  - docker --version
+  - apk add bash --no-cache
+  - apk add git --no-cache
+stages:
+  - build
+  - test
+  - deploy
+build_image:
+  stage: build
+  script:
+    - bash build.sh
