@@ -12,3 +12,4 @@ RUN pip3 --no-cache-dir install seaborn jupyter numexpr nibabel scikit-learn sci
 RUN pip3 --no-cache-dir install nilearn
 RUN pip3 --no-cache-dir install elasticsearch certifi
 RUN pip3 --no-cache-dir install statsmodels
+RUN pip3 --no-cache-dir install requests
