@@ -10,6 +10,8 @@ RUN apt-get update && apt-get install -y r-recommended
 RUN pip3 --no-cache-dir install numpy pandas
 RUN pip3 --no-cache-dir install seaborn jupyter numexpr nibabel scikit-learn scikit-image python-slugify openpyxl xlrd
 RUN pip3 --no-cache-dir install nilearn
-RUN pip3 --no-cache-dir install elasticsearch certifi
 RUN pip3 --no-cache-dir install statsmodels
 RUN pip3 --no-cache-dir install requests
+RUN pip3 --no-cache-dir install iptk
+RUN pip3 --no-cache-dir install certifi
+RUN pip3 --no-cache-dir install "elasticsearch>=6.0.0,<7.0.0"
