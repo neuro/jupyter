@@ -19,3 +19,4 @@ RUN pip3 --no-cache-dir install requests
 RUN pip3 --no-cache-dir install iptk
 RUN pip3 --no-cache-dir install certifi
 RUN pip3 --no-cache-dir install "elasticsearch>=6.0.0,<7.0.0"
+RUN pip3 --no-cache-dir install tqdm
